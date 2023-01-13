@@ -1,5 +1,13 @@
 
+idstudio {
 
+    position: absolute;
+    width: 130.8px;
+    height: 23.06px;
+    left: 0px;
+    top: 0px;
+
+}
 hero {
     display: flex;
     flex-direction: row;
@@ -144,13 +152,20 @@ h2 {
     flex-grow: 0;
 }
 
-img {
-    width: 705px;
-    height: 750px;
+aboutstudio {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 71px 135px;
+    gap: 10px;
 
-    /* Inside auto layout */
+    position: absolute;
+    width: 1440px;
+    height: 385px;
+    left: 0px;
+    top: 750px;
 
-    flex: none;
-    order: 0;
-    flex-grow: 0;
+    /* 2 bg */
+
+    background: #F4F4F4;
 }
